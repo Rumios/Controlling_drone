@@ -1,0 +1,47 @@
+
+# =====================================
+# Python 가상환경
+# =====================================
+.venv/
+venv/
+env/
+
+# Python 캐시 및 테스트 캐시
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Python 빌드 및 패키징
+*.egg-info/
+build/
+dist/
+
+# =====================================
+# 시뮬레이션 로그 및 결과
+# =====================================
+/logs/
+/results/
+
+# 로컬 gym-pybullet-drones 라이브러리
+/gym-pybullet-drones/
+
+# =====================================
+# 개발 환경
+# =====================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# 임시 파일 및 백업
+*.tmp
+*.bak
+
+# 환경 변수 및 비밀 설정
+.env
+.env.*
+!.env.example
